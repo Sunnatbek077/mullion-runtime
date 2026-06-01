@@ -27,8 +27,40 @@
     }
   ],
   "games" : [
+    {
+      "compatibility" : {
+        "wine" : "Verified"
+      },
+      "detectFiles" : [
 
+      ],
+      "dllOverrides" : {
+
+      },
+      "exeFile" : "RDR2.exe",
+      "folderName" : "Red Dead Redemption 2",
+      "id" : "743139B1-2DCA-4B4E-86A6-1E09A2487C05",
+      "name" : "RDR2",
+      "publishedAt" : "2026-06-01T18:31:47Z",
+      "publisher" : "Rockstar Games",
+      "requiredComponents" : [
+        "wine"
+      ],
+      "settings" : {
+        "directx" : "DX12",
+        "multiplayer" : false,
+        "windowsVersion" : "win10"
+      },
+      "status" : "Published",
+      "steamId" : "1174180",
+      "updatedAt" : "2026-06-01T18:31:47Z",
+      "version" : "0.1",
+      "wineEnv" : {
+        "WINEESYNC" : "1",
+        "WINEMSYNC" : "1"
+      }
+    }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-06-01T18:30:10Z"
+  "updatedAt" : "2026-06-01T18:31:48Z"
 }
