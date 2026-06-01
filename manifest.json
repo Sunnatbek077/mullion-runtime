@@ -12,17 +12,17 @@
       "categoryId" : "479B7341-A985-4B96-9292-B0990803E45E",
       "componentId" : "wine",
       "description" : "Runtime",
-      "downloadURL" : "https:\/\/www.google.com\/url?sa=t&source=web&rct=j&opi=89978449&url=https:\/\/telegram.org\/dl&ved=2ahUKEwivip-L1uaUAxUIIRAIHUoNML8QFnoECBoQAQ&usg=AOvVaw2hQus69plJQNCbdQDQdtL2",
-      "fileName" : "wine-1.0.tar.gz",
+      "downloadURL" : "https:\/\/github.com\/Sunnatbek077\/volt-runtime\/releases\/download\/runtime-assets\/wine-1.0.dmg",
+      "fileName" : "wine-1.0.dmg",
       "gameCompatibility" : {
 
       },
       "icon" : "wineglass",
       "id" : "12C6A0BA-58E8-414E-A6BD-4091ED799019",
-      "sha256" : "",
-      "sizeMB" : 0,
+      "sha256" : "2ff46757c475530aabfa38019d6bbe95af477ca5e78cafdb25c6947d00bb5e33",
+      "sizeMB" : 133353944,
       "status" : "Published",
-      "updatedAt" : "2026-06-01T18:36:00Z",
+      "updatedAt" : "2026-06-01T18:41:54Z",
       "version" : "1.0"
     }
   ],
@@ -62,5 +62,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-06-01T18:36:00Z"
+  "updatedAt" : "2026-06-01T18:41:54Z"
 }
