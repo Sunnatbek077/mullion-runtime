@@ -1,1 +1,18 @@
+{
+  "categories" : [
+    {
+      "colorName" : "blue",
+      "icon" : "tag.fill",
+      "id" : "479B7341-A985-4B96-9292-B0990803E45E",
+      "name" : "New Category"
+    }
+  ],
+  "components" : [
 
+  ],
+  "games" : [
+
+  ],
+  "runtimeVersion" : "1.0.0",
+  "updatedAt" : "2026-06-01T18:28:50Z"
+}
