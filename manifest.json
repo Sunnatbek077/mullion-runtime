@@ -17,12 +17,12 @@
       "gameCompatibility" : {
 
       },
-      "icon" : "cube.box.fill",
+      "icon" : "wineglass",
       "id" : "12C6A0BA-58E8-414E-A6BD-4091ED799019",
       "sha256" : "",
       "sizeMB" : 0,
       "status" : "Published",
-      "updatedAt" : "2026-06-01T18:30:10Z",
+      "updatedAt" : "2026-06-01T18:36:00Z",
       "version" : "1.0"
     }
   ],
@@ -62,5 +62,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-06-01T18:31:48Z"
+  "updatedAt" : "2026-06-01T18:36:00Z"
 }
