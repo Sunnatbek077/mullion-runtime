@@ -4,7 +4,7 @@
       "colorName" : "blue",
       "icon" : "tag.fill",
       "id" : "02915A19-2080-4F63-8C7E-026BB8164539",
-      "name" : "New Category"
+      "name" : "W"
     }
   ],
   "components" : [
@@ -14,5 +14,5 @@
 
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-06-03T19:31:57Z"
+  "updatedAt" : "2026-06-03T19:32:04Z"
 }
