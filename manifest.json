@@ -8,7 +8,7 @@
     },
     {
       "colorName" : "purple",
-      "icon" : "cp",
+      "icon" : "cpu.fi",
       "id" : "C98F1E65-4EFF-45BC-9C9F-34F224164ED1",
       "name" : "DIRECTX\/METAL"
     }
@@ -20,5 +20,5 @@
 
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-06-03T19:33:38Z"
+  "updatedAt" : "2026-06-03T19:33:39Z"
 }
