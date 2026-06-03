@@ -5,6 +5,12 @@
       "icon" : "wineglass.fill",
       "id" : "02915A19-2080-4F63-8C7E-026BB8164539",
       "name" : "Wine"
+    },
+    {
+      "colorName" : "blue",
+      "icon" : "tag.fill",
+      "id" : "C98F1E65-4EFF-45BC-9C9F-34F224164ED1",
+      "name" : "New Category"
     }
   ],
   "components" : [
@@ -14,5 +20,5 @@
 
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-06-03T19:32:29Z"
+  "updatedAt" : "2026-06-03T19:33:14Z"
 }
