@@ -36,11 +36,28 @@
       "status" : "Published",
       "updatedAt" : "2026-06-04T20:28:06Z",
       "version" : "20260125"
+    },
+    {
+      "categoryId" : "02915A19-2080-4F63-8C7E-026BB8164539",
+      "componentId" : "Game Porting Toolkit",
+      "description" : "Apple GPTK based by Wine",
+      "downloadURL" : "https:\/\/github.com\/Sunnatbek077\/volt-runtime\/releases\/download\/runtime-assets\/Game.Porting.Toolkit-3.dmg",
+      "fileName" : "Game Porting Toolkit-3.dmg",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "gamecontroller.fill",
+      "id" : "C1EF620A-35E8-4043-90DC-6B0A5549A3D3",
+      "sha256" : "d49395fb07e536804d1da0858590e53f6aa6fab12512e18fd80a74c87f9f063c",
+      "sizeMB" : 25006010,
+      "status" : "Published",
+      "updatedAt" : "2026-07-01T18:08:47Z",
+      "version" : "3"
     }
   ],
   "games" : [
 
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-01T10:15:38Z"
+  "updatedAt" : "2026-07-01T18:08:48Z"
 }
