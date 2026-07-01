@@ -51,13 +51,13 @@
       "sha256" : "d49395fb07e536804d1da0858590e53f6aa6fab12512e18fd80a74c87f9f063c",
       "sizeMB" : 25006010,
       "status" : "Published",
-      "updatedAt" : "2026-07-01T18:08:47Z",
-      "version" : "3"
+      "updatedAt" : "2026-07-01T18:08:59Z",
+      "version" : "3.00"
     }
   ],
   "games" : [
 
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-01T18:08:48Z"
+  "updatedAt" : "2026-07-01T18:08:59Z"
 }
