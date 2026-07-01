@@ -21,23 +21,6 @@
   ],
   "components" : [
     {
-      "categoryId" : "10F954C1-BE3B-4763-A84E-9B819E15C001",
-      "componentId" : "Winetricks",
-      "description" : "",
-      "downloadURL" : "https:\/\/raw.githubusercontent.com\/Winetricks\/winetricks\/master\/src\/winetricks",
-      "fileName" : "Winetricks-20260125.tar.gz",
-      "gameCompatibility" : {
-
-      },
-      "icon" : "wrench.and.screwdriver.fill",
-      "id" : "3E61543F-0A4D-4BE4-AE86-0F1B063E3A1C",
-      "sha256" : "",
-      "sizeMB" : 0,
-      "status" : "Published",
-      "updatedAt" : "2026-06-04T20:28:06Z",
-      "version" : "20260125"
-    },
-    {
       "categoryId" : "02915A19-2080-4F63-8C7E-026BB8164539",
       "componentId" : "Game Porting Toolkit",
       "description" : "Apple GPTK based by Wine",
@@ -59,5 +42,5 @@
 
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-01T18:08:59Z"
+  "updatedAt" : "2026-07-01T18:47:36Z"
 }
