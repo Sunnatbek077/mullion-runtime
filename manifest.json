@@ -32,9 +32,9 @@
       "icon" : "wineglass.fill",
       "id" : "E2341F55-624A-40E7-8212-AF02E0D8CB6E",
       "sha256" : "",
-      "sizeMB" : 0,
+      "sizeMB" : 239200808,
       "status" : "Published",
-      "updatedAt" : "2026-07-02T20:28:58Z",
+      "updatedAt" : "2026-07-02T20:42:30Z",
       "version" : "3.00"
     }
   ],
@@ -75,5 +75,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-02T20:28:58Z"
+  "updatedAt" : "2026-07-02T20:42:30Z"
 }
