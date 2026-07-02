@@ -33,9 +33,26 @@
       "id" : "5A3A16C7-637D-44DC-8E19-C8C78C0BC33F",
       "sha256" : "d49395fb07e536804d1da0858590e53f6aa6fab12512e18fd80a74c87f9f063c",
       "sizeMB" : 25006010,
-      "status" : "Published",
-      "updatedAt" : "2026-07-01T18:48:40Z",
+      "status" : "Deprecated",
+      "updatedAt" : "2026-07-02T19:21:20Z",
       "version" : "3.00"
+    },
+    {
+      "categoryId" : "02915A19-2080-4F63-8C7E-026BB8164539",
+      "componentId" : "Game Porting Toolkit",
+      "description" : "GPTK based by Wine",
+      "downloadURL" : "https:\/\/github.com\/Sunnatbek077\/volt-runtime\/releases\/download\/runtime-assets\/Game.Porting.Toolkit-2.00.zip",
+      "fileName" : "Game Porting Toolkit-2.00.zip",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "gamecontroller.fill",
+      "id" : "B0D5C353-275F-4F4B-A4D0-4B3E6C7FCF17",
+      "sha256" : "77d431a1ed7aeab5bb42324b3983f1fef94f254a122c3466ad1aad675f09b20f",
+      "sizeMB" : 5473628,
+      "status" : "Published",
+      "updatedAt" : "2026-07-02T19:21:20Z",
+      "version" : "2.00"
     }
   ],
   "games" : [
@@ -75,5 +92,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-02T12:34:02Z"
+  "updatedAt" : "2026-07-02T19:21:21Z"
 }
