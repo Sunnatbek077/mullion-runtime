@@ -39,8 +39,41 @@
     }
   ],
   "games" : [
+    {
+      "compatibility" : {
+        "Game Porting Toolkit" : "Verified"
+      },
+      "detectFiles" : [
 
+      ],
+      "dllOverrides" : {
+
+      },
+      "exeFile" : "RDR2.exe",
+      "folderName" : "Red Dead Redemption 2",
+      "iconURL" : "file:\/\/\/Users\/sunnatbek\/Desktop\/Icon-iOS-Default-1024@1x.png",
+      "id" : "14B3274E-1A46-4F06-9D1B-2E3EE3D3113D",
+      "name" : "Red Dead Redemption 2",
+      "publishedAt" : "2026-07-02T11:24:27Z",
+      "publisher" : "Rockstar Games",
+      "requiredComponents" : [
+
+      ],
+      "settings" : {
+        "directx" : "DX12",
+        "multiplayer" : false,
+        "windowsVersion" : "win11"
+      },
+      "status" : "Published",
+      "steamId" : "1174180",
+      "updatedAt" : "2026-07-02T11:24:27Z",
+      "version" : "1",
+      "wineEnv" : {
+        "WINEESYNC" : "1",
+        "WINEMSYNC" : "1"
+      }
+    }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-01T18:48:40Z"
+  "updatedAt" : "2026-07-02T11:24:28Z"
 }
