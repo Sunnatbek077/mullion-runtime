@@ -42,6 +42,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-02T20:42:30Z",
       "version" : "3.00"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "dotnet48",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/download.visualstudio.microsoft.com\/download\/pr\/7afca223-55d2-470a-8edc-6a1739ae3252\/abd170b4b0ec15ad0222a809b761a036\/ndp48-x86-x64-allos-enu.exe",
+      "fileName" : "dotnet48-4.8.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "743AC19A-1036-4F95-9486-C42E8F6E3C3E",
+      "sha256" : "",
+      "sizeMB" : 72721568,
+      "status" : "Published",
+      "updatedAt" : "2026-07-04T21:07:20Z",
+      "version" : "4.8"
     }
   ],
   "games" : [
@@ -81,5 +98,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-04T21:04:05Z"
+  "updatedAt" : "2026-07-04T21:07:20Z"
 }
