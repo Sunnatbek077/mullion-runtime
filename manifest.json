@@ -22,7 +22,7 @@
       "colorName" : "blue",
       "icon" : "tag.fill",
       "id" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
-      "name" : "New Category"
+      "name" : "Pa"
     }
   ],
   "components" : [
@@ -81,5 +81,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-04T20:55:40Z"
+  "updatedAt" : "2026-07-04T20:56:23Z"
 }
