@@ -59,6 +59,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-04T21:07:20Z",
       "version" : "4.8"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "vcrun2022",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/aka.ms\/vs\/17\/release\/vc_redist.x86.exe",
+      "fileName" : "vcrun2022-2022.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "9742D02D-7008-462A-8BE8-A5DF5BDFB19C",
+      "sha256" : "",
+      "sizeMB" : 13953392,
+      "status" : "Published",
+      "updatedAt" : "2026-07-04T21:11:12Z",
+      "version" : "2022"
     }
   ],
   "games" : [
@@ -98,5 +115,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-04T21:07:20Z"
+  "updatedAt" : "2026-07-04T21:11:12Z"
 }
