@@ -19,7 +19,7 @@
       "name" : "Tools"
     },
     {
-      "colorName" : "blue",
+      "colorName" : "green",
       "icon" : "shippingbox.fill",
       "id" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
       "name" : "Packages"
@@ -81,5 +81,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-04T20:56:39Z"
+  "updatedAt" : "2026-07-04T20:56:48Z"
 }
