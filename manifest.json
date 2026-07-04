@@ -17,6 +17,12 @@
       "icon" : "wrench.and.screwdriver.fill",
       "id" : "10F954C1-BE3B-4763-A84E-9B819E15C001",
       "name" : "Tools"
+    },
+    {
+      "colorName" : "blue",
+      "icon" : "tag.fill",
+      "id" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "name" : "New Category"
     }
   ],
   "components" : [
@@ -75,5 +81,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-02T20:42:30Z"
+  "updatedAt" : "2026-07-04T20:55:40Z"
 }
