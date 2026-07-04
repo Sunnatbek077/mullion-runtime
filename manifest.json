@@ -44,7 +44,7 @@
       "version" : "3.00"
     },
     {
-      "categoryId" : "02915A19-2080-4F63-8C7E-026BB8164539",
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
       "componentId" : "vcrun2022",
       "description" : "Packages",
       "downloadURL" : "https:\/\/aka.ms\/vs\/17\/release\/vc_redist.x86.exe",
@@ -57,7 +57,7 @@
       "sha256" : "",
       "sizeMB" : 13953392,
       "status" : "Published",
-      "updatedAt" : "2026-07-04T20:57:43Z",
+      "updatedAt" : "2026-07-04T21:00:34Z",
       "version" : "2022"
     },
     {
@@ -115,5 +115,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-04T21:00:28Z"
+  "updatedAt" : "2026-07-04T21:00:34Z"
 }
