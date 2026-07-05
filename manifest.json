@@ -195,6 +195,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:28:27Z",
       "version" : "2013"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "vcrun2015",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/download.microsoft.com\/download\/6\/D\/F\/6DF3FF94-F7F9-4F0B-838C-A328D1A7D0EE\/vc_redist.x86.exe",
+      "fileName" : "vcrun2015-2015.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "B5681919-1100-4FDB-8E9C-6ED0DDD7A326",
+      "sha256" : "",
+      "sizeMB" : 14458272,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:28:52Z",
+      "version" : "2015"
     }
   ],
   "games" : [
@@ -234,5 +251,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:28:28Z"
+  "updatedAt" : "2026-07-05T14:28:52Z"
 }
