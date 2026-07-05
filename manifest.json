@@ -484,6 +484,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:43:27Z",
       "version" : "4.6.2"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "dotnet471",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/download.visualstudio.microsoft.com\/download\/pr\/4312fa21-59b0-4451-9482-a1376f7f3ba4\/9947fce13c11105b48cba170494e787f\/NDP471-KB4033342-x86-x64-AllOS-ENU.exe",
+      "fileName" : "dotnet471-4.7.1.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "43E52D92-ACAF-43F3-B202-597CF1F658D8",
+      "sha256" : "",
+      "sizeMB" : 68734656,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:43:49Z",
+      "version" : "4.7.1"
     }
   ],
   "games" : [
@@ -523,5 +540,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:43:27Z"
+  "updatedAt" : "2026-07-05T14:43:49Z"
 }
