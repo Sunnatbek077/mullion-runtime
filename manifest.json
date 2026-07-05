@@ -523,7 +523,7 @@
       "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
       "componentId" : "xna40",
       "description" : "Packages",
-      "downloadURL" : "https:\/\/web.archive.org\/web\/20120325002813\/https:\/\/download.microsoft.com\/download\/A\/C\/2\/AC2C903B-E6E8-42C2-9FD7-BEBAC362A930\/xnafx40_redist.ms",
+      "downloadURL" : "https:\/\/web.archive.org\/web\/20120325002813\/https:\/\/download.microsoft.com\/download\/A\/C\/2\/AC2C903B-E6E8-42C2-9FD7-BEBAC362A930\/xnafx40_redist.msi",
       "fileName" : "xna40-4.0.tar.gz",
       "gameCompatibility" : {
 
@@ -533,7 +533,7 @@
       "sha256" : "",
       "sizeMB" : 7054336,
       "status" : "Published",
-      "updatedAt" : "2026-07-05T14:44:57Z",
+      "updatedAt" : "2026-07-05T14:45:12Z",
       "version" : "4.0"
     }
   ],
@@ -574,5 +574,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:44:57Z"
+  "updatedAt" : "2026-07-05T14:45:12Z"
 }
