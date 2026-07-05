@@ -399,6 +399,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:38:32Z",
       "version" : "2022"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "dotnet35",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/download.microsoft.com\/download\/6\/0\/f\/60fc5854-3cb8-4892-b6db-bd4f42510f28\/dotnetfx35.exe",
+      "fileName" : "dotnet35-3.5.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "495CFC29-63D6-4B5B-A752-2F4A29B03110",
+      "sha256" : "",
+      "sizeMB" : 206692864,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:39:12Z",
+      "version" : "3.5"
     }
   ],
   "games" : [
@@ -438,5 +455,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:38:33Z"
+  "updatedAt" : "2026-07-05T14:39:12Z"
 }
