@@ -246,6 +246,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:30:00Z",
       "version" : "2019"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "vcrun2005_x64",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/download.microsoft.com\/download\/8\/B\/4\/8B42259F-5D70-43F4-AC2E-4B208FD8D66A\/vcredist_x64.EXE",
+      "fileName" : "vcrun2005_x64-2005.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "9EAE97CD-E81C-47F6-B20D-8D8DA1F7DC87",
+      "sha256" : "",
+      "sizeMB" : 3179000,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:30:26Z",
+      "version" : "2005"
     }
   ],
   "games" : [
@@ -285,5 +302,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:30:01Z"
+  "updatedAt" : "2026-07-05T14:30:26Z"
 }
