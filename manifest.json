@@ -110,6 +110,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T13:59:49Z",
       "version" : "9.23.1019"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "d3dcompiler_47",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/www.microsoft.com\/",
+      "fileName" : "d3dcompiler_47-4.7.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "6CCEDEE1-AE06-4F7C-B2CA-D16C78C26E9F",
+      "sha256" : "",
+      "sizeMB" : 0,
+      "status" : "Draft",
+      "updatedAt" : "2026-07-05T14:05:39Z",
+      "version" : "4.7"
     }
   ],
   "games" : [
@@ -149,5 +166,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T13:59:49Z"
+  "updatedAt" : "2026-07-05T14:05:40Z"
 }
