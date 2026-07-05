@@ -93,6 +93,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T13:58:53Z",
       "version" : "4.5"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "Physx",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/us.download.nvidia.com\/Windows\/9.23.1019\/PhysX_9.23.1019_SystemSoftware.exe",
+      "fileName" : "Physx-9.23.1019.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "E6A7AEFA-FA42-4090-8A87-29508050F52B",
+      "sha256" : "",
+      "sizeMB" : 29417888,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T13:59:49Z",
+      "version" : "9.23.1019"
     }
   ],
   "games" : [
@@ -132,5 +149,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T13:58:54Z"
+  "updatedAt" : "2026-07-05T13:59:49Z"
 }
