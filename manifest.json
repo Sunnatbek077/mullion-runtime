@@ -535,6 +535,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:45:12Z",
       "version" : "4.0"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "Winetricks",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/github.com\/Winetricks\/winetricks\/releases\/download\/20260125\/20260125.tar.gz.asc",
+      "fileName" : "Winetricks-20260125.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "0EC546F4-3883-45BB-98ED-904A7C6E44A2",
+      "sha256" : "",
+      "sizeMB" : 833,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:49:16Z",
+      "version" : "20260125"
     }
   ],
   "games" : [
@@ -574,5 +591,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:45:12Z"
+  "updatedAt" : "2026-07-05T14:49:16Z"
 }
