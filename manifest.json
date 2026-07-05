@@ -553,10 +553,12 @@
       "iconURL" : "https:\/\/github.com\/Sunnatbek077\/volt-runtime\/releases\/download\/runtime-assets\/red-dead-redemption-2-icon.png",
       "id" : "BA856AA3-ED49-447B-952E-25256C593A03",
       "name" : "Red Dead Redemption 2",
-      "publishedAt" : "2026-07-02T12:34:02Z",
+      "publishedAt" : "2026-07-05T19:14:31Z",
       "publisher" : "Rockstar Games",
       "requiredComponents" : [
-        "Game Porting Toolkit"
+        "Game Porting Toolkit",
+        "vcrun2015",
+        "Game-Porting-Toolkit"
       ],
       "settings" : {
         "directx" : "DX12",
@@ -565,7 +567,7 @@
       },
       "status" : "Published",
       "steamId" : "1174180",
-      "updatedAt" : "2026-07-02T12:34:02Z",
+      "updatedAt" : "2026-07-05T19:14:31Z",
       "version" : "1.00",
       "wineEnv" : {
         "WINEESYNC" : "1",
@@ -574,5 +576,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:52:17Z"
+  "updatedAt" : "2026-07-05T19:14:31Z"
 }
