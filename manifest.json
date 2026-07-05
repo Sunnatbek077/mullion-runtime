@@ -161,6 +161,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:27:32Z",
       "version" : "2010"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "vcrun2012",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/download.microsoft.com\/download\/1\/6\/B\/16B06F60-3B20-4FF2-B699-5E9B7962F9AE\/VSU_4\/vcredist_x86.exe",
+      "fileName" : "vcrun2012-2012.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "2373223A-9173-48F4-8182-11132BFDB4BC",
+      "sha256" : "",
+      "sizeMB" : 6554576,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:27:55Z",
+      "version" : "2012"
     }
   ],
   "games" : [
@@ -200,5 +217,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:27:32Z"
+  "updatedAt" : "2026-07-05T14:27:55Z"
 }
