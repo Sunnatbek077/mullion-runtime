@@ -433,6 +433,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:39:34Z",
       "version" : "4.0"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "dotnet452",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/download.microsoft.com\/download\/E\/2\/1\/E21644B5-2DF2-47C2-91BD-63C560427900\/NDP452-KB2901907-x86-x64-AllOS-ENU.exe",
+      "fileName" : "dotnet452-4.5.2.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "53481FB8-7E8E-43F0-89C8-206C4A37FEFE",
+      "sha256" : "",
+      "sizeMB" : 69999448,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:42:13Z",
+      "version" : "4.5.2"
     }
   ],
   "games" : [
@@ -472,5 +489,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:39:34Z"
+  "updatedAt" : "2026-07-05T14:42:13Z"
 }
