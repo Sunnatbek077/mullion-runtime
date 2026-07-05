@@ -76,6 +76,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-04T21:11:12Z",
       "version" : "2022"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "dotnet45",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/download.microsoft.com\/download\/b\/a\/4\/ba4a7e71-2906-4b2d-a0e1-80cf16844f5f\/dotnetfx45_full_x86_x64.exe",
+      "fileName" : "dotnet45-4.5.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "6D766B69-668C-4660-A9E7-2D78B7F0A992",
+      "sha256" : "",
+      "sizeMB" : 50352408,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T13:47:32Z",
+      "version" : "4.5"
     }
   ],
   "games" : [
@@ -114,6 +131,6 @@
       }
     }
   ],
-  "runtimeVersion" : "1.0.1",
-  "updatedAt" : "2026-07-05T13:40:36Z"
+  "runtimeVersion" : "1.0.0",
+  "updatedAt" : "2026-07-05T13:47:32Z"
 }
