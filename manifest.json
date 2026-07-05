@@ -365,6 +365,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:37:44Z",
       "version" : "2017"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "vcrun2019_x64",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/aka.ms\/vs\/16\/release\/vc_redist.x64.exe",
+      "fileName" : "vcrun2019_x64-2019.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "1A7BF42E-3A35-4FD6-958D-B4E2951BAE21",
+      "sha256" : "",
+      "sizeMB" : 25332216,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:38:09Z",
+      "version" : "2019"
     }
   ],
   "games" : [
@@ -404,5 +421,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:37:45Z"
+  "updatedAt" : "2026-07-05T14:38:09Z"
 }
