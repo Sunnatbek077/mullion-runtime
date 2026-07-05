@@ -501,6 +501,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:43:49Z",
       "version" : "4.7.1"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "openal",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/www.openal.org\/downloads\/oalinst.zip",
+      "fileName" : "openal-latest.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "DC2B3290-A620-47A2-9783-118978F433A7",
+      "sha256" : "",
+      "sizeMB" : 590434,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:44:28Z",
+      "version" : "latest"
     }
   ],
   "games" : [
@@ -540,5 +557,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:43:49Z"
+  "updatedAt" : "2026-07-05T14:44:29Z"
 }
