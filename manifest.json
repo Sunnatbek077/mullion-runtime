@@ -450,6 +450,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:42:13Z",
       "version" : "4.5.2"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "dotnet46",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/download.microsoft.com\/download\/6\/F\/9\/6F9673B1-87D1-46C4-BF04-95F24C3EB9DA\/enu_netfx\/NDP46-KB3045557-x86-x64-AllOS-ENU_exe\/NDP46-KB3045557-x86-x64-AllOS-ENU.exe",
+      "fileName" : "dotnet46-4.6.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "51FCF463-D22A-4986-84FC-757E183989DE",
+      "sha256" : "",
+      "sizeMB" : 65444688,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:42:32Z",
+      "version" : "4.6"
     }
   ],
   "games" : [
@@ -489,5 +506,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:42:13Z"
+  "updatedAt" : "2026-07-05T14:42:32Z"
 }
