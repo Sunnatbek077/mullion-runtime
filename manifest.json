@@ -467,6 +467,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:42:32Z",
       "version" : "4.6"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "dotnet462",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/download.visualstudio.microsoft.com\/download\/pr\/8e396c75-4d0d-41d3-aea8-848babc2736a\/80b431456d8866ebe053eb8b81a168b3\/NDP462-KB3151800-x86-x64-AllOS-ENU.exe",
+      "fileName" : "dotnet462-4.6.2.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "DE84806B-57AE-454C-BE41-63DD434DD1AE",
+      "sha256" : "",
+      "sizeMB" : 62000832,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:43:27Z",
+      "version" : "4.6.2"
     }
   ],
   "games" : [
@@ -506,5 +523,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:42:32Z"
+  "updatedAt" : "2026-07-05T14:43:27Z"
 }
