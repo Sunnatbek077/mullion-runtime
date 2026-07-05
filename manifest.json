@@ -178,6 +178,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:27:55Z",
       "version" : "2012"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "vcrun2013",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/download.microsoft.com\/download\/0\/5\/6\/056dcda9-d667-4e27-8001-8a0c6971d6b1\/vcredist_x86.exe",
+      "fileName" : "vcrun2013-2013.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "87D1E1E2-C9C4-4E83-913A-068E141F9E50",
+      "sha256" : "",
+      "sizeMB" : 6510544,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:28:27Z",
+      "version" : "2013"
     }
   ],
   "games" : [
@@ -217,5 +234,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:27:55Z"
+  "updatedAt" : "2026-07-05T14:28:28Z"
 }
