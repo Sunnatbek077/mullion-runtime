@@ -127,6 +127,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:25:26Z",
       "version" : "2005"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "vcrun2008",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/download.microsoft.com\/download\/5\/D\/8\/5D8C65CB-C849-4025-8E95-C3966CAFD8AE\/vcredist_x86.exe",
+      "fileName" : "vcrun2008-2008.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "EC81D0C0-116A-4922-8CC7-159CB213BAEA",
+      "sha256" : "",
+      "sizeMB" : 4483040,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:27:09Z",
+      "version" : "2008"
     }
   ],
   "games" : [
@@ -166,5 +183,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:25:26Z"
+  "updatedAt" : "2026-07-05T14:27:09Z"
 }
