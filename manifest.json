@@ -348,6 +348,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:37:04Z",
       "version" : "2015"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "vcrun2017_x64",
+      "description" : "Packages",
+      "downloadURL" : "https:\/\/aka.ms\/vs\/15\/release\/vc_redist.x64.exe",
+      "fileName" : "vcrun2017_x64-2017.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "ECD75E6B-5B1B-495C-BE71-0342AF2837F5",
+      "sha256" : "",
+      "sizeMB" : 15324768,
+      "status" : "Published",
+      "updatedAt" : "2026-07-05T14:37:44Z",
+      "version" : "2017"
     }
   ],
   "games" : [
@@ -387,5 +404,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-05T14:37:04Z"
+  "updatedAt" : "2026-07-05T14:37:45Z"
 }
