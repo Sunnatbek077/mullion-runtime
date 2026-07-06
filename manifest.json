@@ -518,6 +518,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:45:12Z",
       "version" : "4.0"
+    },
+    {
+      "categoryId" : "02915A19-2080-4F63-8C7E-026BB8164539",
+      "componentId" : "Wine",
+      "description" : "Wine runtime",
+      "downloadURL" : "https:\/\/dl.winehq.org\/wine\/source\/11.0\/wine-11.0.tar.xz",
+      "fileName" : "Wine-11.0.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "wineglass.fill",
+      "id" : "FC8DB76D-2345-4539-B268-F84E6576F10A",
+      "sha256" : "",
+      "sizeMB" : 33172240,
+      "status" : "Published",
+      "updatedAt" : "2026-07-06T03:52:35Z",
+      "version" : "11.0"
     }
   ],
   "games" : [
@@ -559,5 +576,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-06T03:51:49Z"
+  "updatedAt" : "2026-07-06T03:52:35Z"
 }
