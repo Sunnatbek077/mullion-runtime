@@ -518,6 +518,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:45:12Z",
       "version" : "4.0"
+    },
+    {
+      "categoryId" : "02915A19-2080-4F63-8C7E-026BB8164539",
+      "componentId" : "Wine",
+      "description" : "Wine runtime",
+      "downloadURL" : "https:\/\/github.com\/Sunnatbek077\/volt-runtime\/releases\/download\/runtime-assets\/Wine-11.0.tar.xz",
+      "fileName" : "Wine-11.0.tar.xz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "107F9F15-2384-464B-9D04-E732E1F566E6",
+      "sha256" : "876714bd52efc34177dfd9d3a632dd19d87feaf749952f62d3001eac6285e266",
+      "sizeMB" : 149197428,
+      "status" : "Published",
+      "updatedAt" : "2026-07-06T13:59:30Z",
+      "version" : "11.0"
     }
   ],
   "games" : [
@@ -559,5 +576,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-06T13:58:54Z"
+  "updatedAt" : "2026-07-06T13:59:30Z"
 }
