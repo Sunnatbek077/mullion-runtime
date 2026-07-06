@@ -528,12 +528,12 @@
       "gameCompatibility" : {
 
       },
-      "icon" : "cube.box.fill",
+      "icon" : "wineglass.fill",
       "id" : "107F9F15-2384-464B-9D04-E732E1F566E6",
       "sha256" : "876714bd52efc34177dfd9d3a632dd19d87feaf749952f62d3001eac6285e266",
       "sizeMB" : 149197428,
       "status" : "Published",
-      "updatedAt" : "2026-07-06T13:59:30Z",
+      "updatedAt" : "2026-07-06T14:01:10Z",
       "version" : "11.0"
     }
   ],
@@ -576,5 +576,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-06T13:59:30Z"
+  "updatedAt" : "2026-07-06T14:01:10Z"
 }
