@@ -541,6 +541,7 @@
     {
       "compatibility" : {
         "Wine" : "Verified",
+        "Wine 7.7-GPTK 3.03" : "Verified",
         "dotnet48" : "Verified",
         "vcrun2019_x64" : "Verified"
       },
@@ -555,12 +556,13 @@
       "iconURL" : "https:\/\/github.com\/Sunnatbek077\/volt-runtime\/releases\/download\/runtime-assets\/red-dead-redemption-2-icon.png",
       "id" : "70127A26-42C3-4661-9321-AE75F9BE448B",
       "name" : "Red Dead Redemption 2",
-      "publishedAt" : "2026-07-06T19:20:54Z",
+      "publishedAt" : "2026-07-08T13:14:21Z",
       "publisher" : "Rockstar Games",
       "requiredComponents" : [
         "vcrun2019_x64",
         "dotnet48",
-        "Wine"
+        "Wine",
+        "Wine 7.7-GPTK 3.03"
       ],
       "settings" : {
         "directx" : "DX12",
@@ -569,7 +571,7 @@
       },
       "status" : "Published",
       "steamId" : "1174180",
-      "updatedAt" : "2026-07-06T19:20:54Z",
+      "updatedAt" : "2026-07-08T13:14:21Z",
       "version" : "1.0",
       "wineEnv" : {
         "WINEMSYNC" : "1"
@@ -577,5 +579,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-08T12:43:07Z"
+  "updatedAt" : "2026-07-08T13:14:22Z"
 }
