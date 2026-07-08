@@ -518,23 +518,6 @@
       "status" : "Published",
       "updatedAt" : "2026-07-05T14:45:12Z",
       "version" : "4.0"
-    },
-    {
-      "categoryId" : "02915A19-2080-4F63-8C7E-026BB8164539",
-      "componentId" : "Wine 7.7-gptk 3.03",
-      "description" : "Wine runtime",
-      "downloadURL" : "https:\/\/github.com\/Gcenx\/game-porting-toolkit\/releases\/download\/Game-Porting-Toolkit-3.0-3\/game-porting-toolkit-3.0-3.tar.xz",
-      "fileName" : "Wine-gptk-7.7-3.03.tar.gz",
-      "gameCompatibility" : {
-
-      },
-      "icon" : "wineglass.fill",
-      "id" : "0CB428BC-9ABD-4B0E-BA8E-6D82114BF746",
-      "sha256" : "",
-      "sizeMB" : 239200808,
-      "status" : "Published",
-      "updatedAt" : "2026-07-08T12:27:55Z",
-      "version" : "7.7-3.03"
     }
   ],
   "games" : [
@@ -577,5 +560,5 @@
     }
   ],
   "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-08T12:27:55Z"
+  "updatedAt" : "2026-07-08T12:29:00Z"
 }
