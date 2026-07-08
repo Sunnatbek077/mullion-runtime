@@ -561,7 +561,6 @@
       "requiredComponents" : [
         "vcrun2019_x64",
         "dotnet48",
-        "Wine",
         "Wine 7.7-GPTK 3.03"
       ],
       "settings" : {
