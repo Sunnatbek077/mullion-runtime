@@ -64,7 +64,7 @@
       "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
       "componentId" : "dotnet45",
       "description" : "Packages",
-      "downloadURL" : "  https:\/\/download.microsoft.com\/download\/b\/a\/4\/ba4a7e71-2906-4b2d-a0e1-80cf16844f5f\/dotnetfx45_full_x86_x64.exe",
+      "downloadURL" : "https:\/\/download.microsoft.com\/download\/b\/a\/4\/ba4a7e71-2906-4b2d-a0e1-80cf16844f5f\/dotnetfx45_full_x86_x64.exe",
       "fileName" : "dotnet45-4.5.tar.gz",
       "gameCompatibility" : {
 
@@ -535,6 +535,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-08T12:43:07Z",
       "version" : "7.7"
+    },
+    {
+      "categoryId" : "02915A19-2080-4F63-8C7E-026BB8164539",
+      "componentId" : "Wine 11.0 d3dmetal3",
+      "description" : "Wine runtime",
+      "downloadURL" : "https:\/\/github.com\/Sunnatbek077\/volt-runtime\/releases\/download\/runtime-assets\/Wine.11.0.d3dmetal3-11.0.tar.xz",
+      "fileName" : "Wine 11.0 d3dmetal3-11.0.tar.xz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "wineglass.fill",
+      "id" : "995B4A4D-67BB-43E0-B7AF-EDB391DE0B06",
+      "sha256" : "77702fb5707423044bca80e3e6ac0d03a39c80a87a8f3a17cb2c77884062d75e",
+      "sizeMB" : 244588132,
+      "status" : "Published",
+      "updatedAt" : "2026-07-18T13:48:51Z",
+      "version" : "11.0"
     }
   ],
   "games" : [
@@ -577,6 +594,7 @@
       }
     }
   ],
-  "runtimeVersion" : "1.0.0",
-  "updatedAt" : "2026-07-08T13:14:22Z"
+  "runtimeVersion" : "1.0.1",
+  "schemaVersion" : 1,
+  "updatedAt" : "2026-07-18T13:49:22Z"
 }
