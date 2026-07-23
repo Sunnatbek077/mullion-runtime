@@ -552,6 +552,23 @@
       "status" : "Published",
       "updatedAt" : "2026-07-18T13:48:51Z",
       "version" : "11.0"
+    },
+    {
+      "categoryId" : "0C558BD9-3405-47D9-92C5-E5AD6F3DA593",
+      "componentId" : "EA App",
+      "description" : "Crossover",
+      "downloadURL" : "https:\/\/origin-a.akamaihd.net\/EA-Desktop-Client-Download\/installer-releases\/EADesktopInstaller.exe",
+      "fileName" : "EADesktopInstaller.exe",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "BCC35469-5379-46F2-9AD9-7FF768987068",
+      "sha256" : "",
+      "sizeMB" : 2140800,
+      "status" : "Published",
+      "updatedAt" : "2026-07-23T15:17:58Z",
+      "version" : "1.0"
     }
   ],
   "games" : [
@@ -592,7 +609,7 @@
       }
     }
   ],
-  "runtimeVersion" : "1.0.2",
+  "runtimeVersion" : "1.0.3",
   "schemaVersion" : 1,
-  "updatedAt" : "2026-07-18T13:51:23Z"
+  "updatedAt" : "2026-07-23T15:19:54Z"
 }
