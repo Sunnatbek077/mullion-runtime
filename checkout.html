@@ -20,6 +20,12 @@
   This page therefore needs real hosting; GitHub Pages is enough for sandbox,
   and a live Paddle account needs a verified domain anyway.
 
+  **Published at**
+  https://sunnatbek077.github.io/mullion-runtime/checkout.html
+  from the `mullion-runtime` repo, where Pages was already enabled to serve the
+  manifest repo's README. This file is the source of truth; that one is the
+  copy, and the two drift the moment somebody edits only the published one.
+
   **It knows nothing and decides nothing.** No price, no plan, no user id, no
   key that grants anything. The transaction was created server-side by
   `paddle-checkout`, which is where the price came from and where the buyer's
@@ -63,12 +69,14 @@
   // `environment` call decides which servers Paddle.js talks to. They have to
   // agree, so both are set from one place.
   //
-  // REPLACE BOTH before publishing:
-  //   PADDLE_ENVIRONMENT: "sandbox" while testing, "production" when live.
-  //   PADDLE_CLIENT_TOKEN: Paddle → Developer tools → Authentication →
-  //                        Client-side tokens. Sandbox tokens start `test_`.
+  // This is the **sandbox** pair. Going live means a new token from the live
+  // dashboard (no `test_` prefix) *and* flipping the environment — a live token
+  // against sandbox servers, or the reverse, fails with an error that reads
+  // like a broken integration rather than a wrong environment.
+  //
+  //   Paddle → Developer tools → Authentication → Client-side tokens
   var PADDLE_ENVIRONMENT = "sandbox";
-  var PADDLE_CLIENT_TOKEN = "test_REPLACE_ME";
+  var PADDLE_CLIENT_TOKEN = "test_59ec4434e3d2791d6bcc5351a75";
 
   function fail(title, body) {
     document.getElementById("spinner").className = "spinner hidden";
@@ -82,9 +90,6 @@
     // beats a spinner that never resolves.
     fail("Nothing to pay for",
          "Open the paywall in Mullion and choose a plan — this page is only a step in the middle.");
-  } else if (PADDLE_CLIENT_TOKEN.indexOf("REPLACE_ME") !== -1) {
-    fail("Checkout isn't configured",
-         "This page still has its placeholder Paddle client token.");
   } else {
     try {
       if (PADDLE_ENVIRONMENT === "sandbox") { Paddle.Environment.set("sandbox"); }
