@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout · Mullion</title>
+<!--
+  Mullion's default payment link.
+
+  Paddle composes every checkout URL as *this page* plus `?_ptxn=<txn id>`, and
+  it refuses to create a transaction at all until a default payment link is
+  configured — so this file is not decoration, it is the thing that makes
+  `paddle-checkout` able to answer.
+
+  **It cannot live on Supabase.** The Edge Function gateway rewrites every
+  response on a `*.supabase.co` domain to `content-type: text/plain` with
+  `x-content-type-options: nosniff` and `default-src 'none'; sandbox` —
+  measured on this project with and without an Accept header and with and
+  without an apikey. Markup renders as its own source there and no script runs.
+  This page therefore needs real hosting; GitHub Pages is enough for sandbox,
+  and a live Paddle account needs a verified domain anyway.
+
+  **It knows nothing and decides nothing.** No price, no plan, no user id, no
+  key that grants anything. The transaction was created server-side by
+  `paddle-checkout`, which is where the price came from and where the buyer's
+  id was attached; this page hands Paddle a token that is already in the URL
+  bar and gets out of the way. The client token below is a *public* token —
+  Paddle publishes it for exactly this, it is visible in every checkout page on
+  the internet, and it authorises nothing but opening a checkout.
+-->
+<style>
+  :root { color-scheme: light dark; --fg: #16161a; --muted: #6b6b76; --bg: #fbfbfd; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #f2f2f5; --muted: #9a9aa5; --bg: #0d0d10; } }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    background: var(--bg); color: var(--fg); padding: 24px;
+    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  }
+  .card { max-width: 460px; text-align: center; }
+  h1 { font-size: 20px; margin: 0 0 8px; letter-spacing: -.01em; }
+  p { margin: 0; color: var(--muted); font-size: 15px; }
+  .spinner {
+    width: 26px; height: 26px; margin: 0 auto 18px; border-radius: 50%;
+    border: 2.5px solid rgba(128,128,140,.25); border-top-color: #3b6ef5;
+    animation: spin .8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="spinner" id="spinner"></div>
+    <h1 id="title">Opening checkout…</h1>
+    <p id="body">This only takes a moment.</p>
+  </div>
+
+<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+<script>
+  // Sandbox and live are different environments with different tokens. The
+  // token below decides which account the checkout belongs to; the
+  // `environment` call decides which servers Paddle.js talks to. They have to
+  // agree, so both are set from one place.
+  //
+  // REPLACE BOTH before publishing:
+  //   PADDLE_ENVIRONMENT: "sandbox" while testing, "production" when live.
+  //   PADDLE_CLIENT_TOKEN: Paddle → Developer tools → Authentication →
+  //                        Client-side tokens. Sandbox tokens start `test_`.
+  var PADDLE_ENVIRONMENT = "sandbox";
+  var PADDLE_CLIENT_TOKEN = "test_REPLACE_ME";
+
+  function fail(title, body) {
+    document.getElementById("spinner").className = "spinner hidden";
+    document.getElementById("title").textContent = title;
+    document.getElementById("body").textContent = body;
+  }
+
+  var txn = new URLSearchParams(window.location.search).get("_ptxn");
+  if (!txn) {
+    // Someone typed the address, or a link lost its query string. Saying so
+    // beats a spinner that never resolves.
+    fail("Nothing to pay for",
+         "Open the paywall in Mullion and choose a plan — this page is only a step in the middle.");
+  } else if (PADDLE_CLIENT_TOKEN.indexOf("REPLACE_ME") !== -1) {
+    fail("Checkout isn't configured",
+         "This page still has its placeholder Paddle client token.");
+  } else {
+    try {
+      if (PADDLE_ENVIRONMENT === "sandbox") { Paddle.Environment.set("sandbox"); }
+      // Paddle.js opens the checkout for `_ptxn` on its own once initialised;
+      // the transaction already carries the price and the buyer, so there is
+      // nothing for this page to pass it.
+      Paddle.Initialize({ token: PADDLE_CLIENT_TOKEN });
+    } catch (error) {
+      fail("Checkout couldn't start", String(error && error.message ? error.message : error));
+    }
+  }
+</script>
+</body>
+</html>
