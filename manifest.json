@@ -5,6 +5,18 @@
       "icon" : "wineglass.fill",
       "id" : "79F52B78-EE73-4F2B-AA38-C5438F87F979",
       "name" : "Wine"
+    },
+    {
+      "colorName" : "blue",
+      "icon" : "play.square.stack.fill",
+      "id" : "7A461B49-C50B-4744-A33B-CE5253BBBB78",
+      "name" : "Game Launchers"
+    },
+    {
+      "colorName" : "yellow",
+      "icon" : "arrow.triangle.2.circlepath",
+      "id" : "DCAC846A-FA6A-4F8E-92D8-3E0DD951FFB9",
+      "name" : "Translation Layers"
     }
   ],
   "components" : [
@@ -24,12 +36,46 @@
       "status" : "Published",
       "updatedAt" : "2026-08-24T12:31:00Z",
       "version" : "Wine 11.0"
+    },
+    {
+      "categoryId" : "7A461B49-C50B-4744-A33B-CE5253BBBB78",
+      "componentId" : "Steam",
+      "description" : "Game Launcher",
+      "downloadURL" : "https:\/\/cdn.fastly.steamstatic.com\/client\/installer\/SteamSetup.exe",
+      "fileName" : "SteamSetup.exe",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "B5D3F822-9222-4EA9-8961-9BE5EB54AE5E",
+      "sha256" : "",
+      "sizeMB" : 2380800,
+      "status" : "Published",
+      "updatedAt" : "2026-08-24T12:35:41Z",
+      "version" : "Latest release"
+    },
+    {
+      "categoryId" : "DCAC846A-FA6A-4F8E-92D8-3E0DD951FFB9",
+      "componentId" : "dxmt-v0.80-builtin.tar.gz\ndxmt-v0.80-builtin.tar.gz\ndxmt-v0.80-builtin",
+      "description" : "Translation Layer",
+      "downloadURL" : "https:\/\/github.com\/3Shain\/dxmt\/releases\/download\/v0.80\/dxmt-v0.80-builtin.tar.gz",
+      "fileName" : "dxmt-v0.80-builtin.tar.gz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "arrow.triangle.2.circlepath",
+      "id" : "A1ADDAB2-5511-49BC-A170-0CCAB5D507A6",
+      "sha256" : "",
+      "sizeMB" : 18681669,
+      "status" : "Published",
+      "updatedAt" : "2026-09-01T18:33:18Z",
+      "version" : "0.80"
     }
   ],
   "games" : [
 
   ],
-  "runtimeVersion" : "1.0.1",
+  "runtimeVersion" : "1.0.2",
   "schemaVersion" : 1,
-  "updatedAt" : "2026-08-24T12:31:23Z"
+  "updatedAt" : "2026-09-01T18:36:31Z"
 }
