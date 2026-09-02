@@ -56,26 +56,43 @@
     },
     {
       "categoryId" : "DCAC846A-FA6A-4F8E-92D8-3E0DD951FFB9",
-      "componentId" : "dxmt-v0.80-builtin.tar.gz\ndxmt-v0.80-builtin.tar.gz\ndxmt-v0.80-builtin",
+      "componentId" : "x87sidecar 1.5.0",
       "description" : "Translation Layer",
-      "downloadURL" : "https:\/\/github.com\/3Shain\/dxmt\/releases\/download\/v0.80\/dxmt-v0.80-builtin.tar.gz",
-      "fileName" : "dxmt-v0.80-builtin.tar.gz",
+      "downloadURL" : "https:\/\/github.com\/athei\/x87sidecar\/releases\/download\/v1.5.0\/x87sidecar.tar.xz",
+      "fileName" : "x87sidecar.tar.xz",
       "gameCompatibility" : {
 
       },
-      "icon" : "arrow.triangle.2.circlepath",
-      "id" : "A1ADDAB2-5511-49BC-A170-0CCAB5D507A6",
-      "sha256" : "",
-      "sizeMB" : 18681669,
+      "icon" : "cube.box.fill",
+      "id" : "2611F20B-8954-4B34-95BA-83320F6DD816",
+      "sha256" : "8adb16590ecd5dd80e6a9d335861030937908d73dc4ecdfec76fa001e5ec9a2d",
+      "sizeMB" : 131544,
       "status" : "Published",
-      "updatedAt" : "2026-09-01T18:33:18Z",
-      "version" : "0.80"
+      "updatedAt" : "2026-09-02T11:22:19Z",
+      "version" : "1.5.0"
+    },
+    {
+      "categoryId" : "79F52B78-EE73-4F2B-AA38-C5438F87F979",
+      "componentId" : "wine cx-26.3.0-2",
+      "description" : "Wine runtime",
+      "downloadURL" : "https:\/\/github.com\/athei\/wine-build\/releases\/download\/cx-26.3.0-2\/wine-cx-26.3.0-2-macos-x86_64.tar.xz",
+      "fileName" : "wine-cx-26.3.0-2-macos-x86_64.tar.xz",
+      "gameCompatibility" : {
+
+      },
+      "icon" : "cube.box.fill",
+      "id" : "0C1334DD-3B7B-4604-81B6-5932C18ECCC3",
+      "sha256" : "5348938761dfe7912289ef55950e2795bcda2f37dfb557e723211cb27d7099d6",
+      "sizeMB" : 229363068,
+      "status" : "Published",
+      "updatedAt" : "2026-09-02T11:22:35Z",
+      "version" : "26.3.0-2"
     }
   ],
   "games" : [
 
   ],
-  "runtimeVersion" : "1.0.2",
+  "runtimeVersion" : "1.0.3",
   "schemaVersion" : 1,
-  "updatedAt" : "2026-09-01T18:36:31Z"
+  "updatedAt" : "2026-09-02T11:22:41Z"
 }
