@@ -1,9 +1,9 @@
 {
   "latest" : {
     "build" : "1",
-    "downloadURL" : "https:\/\/github.com\/Sunnatbek077\/mullion-runtime\/releases\/download\/runtime-assets\/Mullion-0.901-1.zip",
+    "downloadURL" : "https:\/\/github.com\/Sunnatbek077\/mullion-releases\/releases\/download\/app\/Mullion-0.901-1.zip",
     "minimumSystemVersion" : "27.0",
-    "publishedAt" : "2026-09-13T15:01:35Z",
+    "publishedAt" : "2026-09-13T15:14:34Z",
     "version" : "0.901"
   }
 }
