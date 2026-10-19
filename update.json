@@ -1,9 +1,3 @@
 {
-  "latest" : {
-    "build" : "1",
-    "downloadURL" : "https:\/\/github.com\/Sunnatbek077\/mullion-releases\/releases\/download\/app\/Mullion-0.922-1.zip",
-    "minimumSystemVersion" : "27.0",
-    "publishedAt" : "2026-10-18T19:23:31Z",
-    "version" : "0.922"
-  }
+
 }
